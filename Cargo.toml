@@ -10,5 +10,6 @@ html-macro = "0.2.2"
 markup = "0.14.0"
 ntex = { version = "0.7", features = ["tokio"] }
 ntex-files = "0.3.0"
+r2d2_postgres = "0.18.1"
 # tokio + rustls
 sqlx = { version = "0.7", features = [ "postgres", "runtime-tokio", "tls-rustls" ] }
